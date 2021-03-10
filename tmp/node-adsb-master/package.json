@@ -1,0 +1,33 @@
+{
+  "name": "adsb",
+  "version": "0.2.0",
+  "description": "ADS-B decoder",
+  "main": "./lib/adsb.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantmd/node-adsb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grantmd/node-adsb/issues",
+    "email": "myles@mylesgrant.com"
+  },
+  "author": "Myles Grant <myles@mylesgrant.com> (http://mylesgrant.com)",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "0d2c3be500b5ee23310e9626cadec04bcda51a22",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "adsb",
+    "rtl",
+    "sdr"
+  ],
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  }
+}
